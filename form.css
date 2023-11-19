@@ -1,0 +1,85 @@
+/* Styles pour la section */
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(45deg, #2308078c, #414141);
+  background-color: #001f63;
+}
+
+element.style {
+  text-align: center;
+}
+
+.container-center {
+  display: contents;
+}
+
+.vh-100 {
+    height: 100vh;
+  }
+  
+  .bg-image {
+    background-image: url('https://mdbcdn.b-cdn.net/img/Photos/new-templates/search-box/img4.webp');
+    background-size: cover;
+    background-position: center;
+  }
+  
+
+  form {
+    display: flex;
+    justify-content: flex-start;
+    background: linear-gradient(45deg, #a0141063, #060606);
+    background-size: 100% 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: flex-end;
+    border-radius: 15px;
+}
+  
+  label.form-label {
+    color: whitesmoke;
+}
+
+.glint {
+  color:darkgray
+}
+
+.bloc {
+  background: linear-gradient(45deg, #ae1c18, #060606);
+}
+
+h2 {
+  color: whitesmoke;
+}
+
+.container {
+  display: grid;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  background-image: url('img\MWIII-REVEAL-BENEFITS-TOUT.jpg');
+  background-size: cover;
+}
+
+img.sessionimage {
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-evenly;
+  align-items: center;
+}
+nav.right-formulaire {
+  background-image: url('img\MWIII-REVEAL-BENEFITS-TOUT.jpg');
+}
